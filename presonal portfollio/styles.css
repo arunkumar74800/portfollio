@@ -1,0 +1,236 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #4379F2; /* Primary Color */
+    color: #fff;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.logo h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #FFEB00; /* Highlight Color */
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #6EC207; /* Accent Color */
+}
+
+/* About Section */
+#about {
+    padding: 60px 20px;
+    background-color: #f4f4f9;
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bio h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #4379F2; /* Header Color */
+}
+
+.bio p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    max-width: 600px;
+}
+
+/* Skills Section */
+#skills {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #117554; /* Secondary Accent */
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.skill h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #4379F2;
+}
+
+.skill p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 20px;
+    background-color: #f4f4f9;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-container p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+    color: #282c34;
+}
+
+.contact-info li {
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #4379F2;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #117554;
+}
+
+/* Footer Section */
+footer {
+    background-color: #117554;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-container p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-links a {
+    color: #FFEB00;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease, transform 0.3s;
+}
+
+.footer-links a:hover {
+    color: #6EC207;
+    transform: scale(1.1);
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.footer-socials a {
+    color: #61dafb;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.footer-socials a:hover {
+    color: #FFEB00;
+}
